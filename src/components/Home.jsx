@@ -8,21 +8,20 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white overflow-y-auto "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col-reverse justify-end py-32 items-center md:justify-between h-full px-4 md:gap-16 md:flex-row">
         <div className="flex flex-col justify-center gap-6 md:h-full">
-          <h2 className="text-4xl sm:text-7xl text-center md:text-left font-bold text-white max-w-2xl">
+          <h2 className="text-4xl sm:text-7xl text-center md:text-left font-bold text-white max-w-2xl mt-4">
             Full-Stack Developer
           </h2>
           <p className="text-gray-500 text-center md:text-left py-4 max-w-xl md:max-w-md">
             Hello, I'm Marvin Wandati Kinyanjui, a Full-stack Developer with a
-            strong emphasis on backend technologies. My journey in software
-            development has been a thrilling exploration of languages,
-            frameworks, and the intricate dance between the front and back ends
-            of web applications.
+            focus on backend technologies. My software development journey has
+            been an exciting exploration of languages, frameworks, and the
+            intricate dance between the front and back ends of web applications
           </p>
-          <div className="flex justify-center md:justify-start">
+          <div className="flex justify-center md:justify-start mb-4">
             <Link
               to="portfolio"
               smooth
