@@ -11,7 +11,7 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 mt-16">About Me</p>
           <p className="text-center md:text-left text-xl max-w-xl md:max-w-full">
             I excel in server-side development, specializing in Python and
-            NodeJS. My expertise ranges from building robust APIs to optimizing
+            Django/Flask Frameworks. My expertise ranges from building robust APIs to optimizing
             database interactions, ensuring efficiency in every application.
             With a foundation in Python, React, and VanillaJs, I've led diverse
             projects, driven by curiosity and a commitment to continuous
