@@ -35,8 +35,8 @@ const Portfolio = () => {
   };
   const handleDemo = (id) => {
     const demoUrls = {
-      1: "https://react-destinations-app.onrender.com/",
-      2: "https://react-bus-book-app.onrender.com/",
+      1: "https://https://flask-destinations-app.vercel.app/",
+      2: "https://https://flask-bus-booking-app.vercel.app",
       // 3: "https://demo-site-3.com",
     };
     const demoUrl = demoUrls[id];
