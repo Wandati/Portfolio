@@ -36,7 +36,7 @@ const Portfolio = () => {
   const handleDemo = (id) => {
     const demoUrls = {
       1: "https://destinations-app-kappa.vercel.app/",
-      2: "https://flask-bus-booking-app.vercel.app/",
+      2: "https://bus-booking-app-delta.vercel.app/",
       // 3: "https://demo-site-3.com",
     };
     const demoUrl = demoUrls[id];
