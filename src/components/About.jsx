@@ -9,7 +9,7 @@ const About = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pb-8 flex justify-center flex-col items-center md:block ">
           <p className="text-4xl font-bold inline border-b-4 mt-16">About Me</p>
-          <p className="text-center md:text-left text-xl mt-8 max-w-xl md:max-w-full">
+          <p className="text-center md:text-left text-xl mt-4 max-w-xl md:max-w-full">
             I excel in server-side development, specializing in Python and
             Django/Flask Frameworks. My expertise ranges from building robust APIs to optimizing
             database interactions, ensuring efficiency in every application.
