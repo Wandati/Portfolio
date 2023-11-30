@@ -2,7 +2,7 @@ import React from "react";
 // import PortfolioImage from "../assets/Portfolio.jpg";
 import Portfolio1 from "../assets/portfolio2.png";
 import Portfolio2 from "../assets/portfolio3.png";
-import Portfolio3 from "../assets/portfolio4.png";
+import Portfolio3 from "../assets/todo.png";
 const Portfolio = () => {
   const projects = [
     {
@@ -22,7 +22,7 @@ const Portfolio = () => {
     const codeUrls = {
       1: "https://github.com/Wandati/Flask-Destinations-App",
       2: "https://github.com/Wandati/Flask-Bus-Booking-App",
-      3: "https://github.com/Wandati/Django-Events-App",
+      3: "https://github.com/Wandati/Django-React-Todo-App",
     };
 
     const codeUrl = codeUrls[id];
@@ -37,7 +37,7 @@ const Portfolio = () => {
     const demoUrls = {
       1: "https://react-destinations-app.onrender.com/",
       2: "https://react-bus-book-app.onrender.com/",
-      // 3: "https://demo-site-3.com",
+      3: "https://django-react-todo-app-orcin.vercel.app/",
     };
     const demoUrl = demoUrls[id];
     if (demoUrl) {
