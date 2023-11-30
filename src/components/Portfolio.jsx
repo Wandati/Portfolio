@@ -20,8 +20,8 @@ const Portfolio = () => {
   ];
   const handleCode = (id) => {
     const codeUrls = {
-      1: "https://destinations-app-kappa.vercel.app/",
-      2: "https://bus-booking-app-delta.vercel.app/",
+      1: "https://github.com/Wandati/Flask-Destinations-App",
+      2: "https://github.com/Wandati/Flask-Bus-Booking-App",
       3: "https://github.com/Wandati/Django-React-Todo-App",
     };
 
@@ -93,3 +93,5 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+
