@@ -12,7 +12,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col-reverse justify-end py-32 items-center md:justify-between h-full px-4 md:gap-16 md:flex-row">
         <div className="flex flex-col justify-center gap-6 md:h-full">
-          <h2 className="text-4xl sm:text-7xl text-center md:text-left font-bold text-white max-w-2xl mt-4">
+          <h2 className="text-4xl sm:text-7xl text-center md:text-left font-bold text-white max-w-2xl mt-6">
             Full-Stack Developer
           </h2>
           <p className="text-gray-500 text-center md:text-left py-4 max-w-xl md:max-w-md">
