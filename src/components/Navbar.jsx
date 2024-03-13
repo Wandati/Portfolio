@@ -6,37 +6,43 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "Home",
     },
     {
       id: 2,
-      link: "about",
+      link: "About",
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "Projects",
     },
     {
       id: 4,
-      link: "experience",
+      link: "Experience",
     },
     {
       id: 5,
-      link: "contact",
+      link: "Contact",
     },
   ];
   return (
     <div className="flex justify-between items-center w-full h-20 px-8 py-12 bg-black text-white fixed">
+      {/* <div>
+        <h2 className="text-3xl md:text-5xl font-signature ml-2">
+          Marvin's PortFolio
+        </h2>
+      </div> */}
       <div>
-        <h1 className="text-3xl md:text-5xl font-signature ml-2">Marvin.dev</h1>
+        <h1 className="text-lg md:text-3xl font-bold font-serif ml-2">
+          Marvin's Portfolio
+        </h1>
       </div>
 
       <ul className="md:flex hidden">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
-          >
+            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
             <Link to={link} smooth duration={500}>
               {" "}
               {link}
@@ -47,8 +53,7 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden "
-      >
+        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden ">
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {nav && (
@@ -56,14 +61,12 @@ const Navbar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
-            >
+              className="px-4 cursor-pointer capitalize py-6 text-4xl">
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}
                 smooth
-                duration={500}
-              >
+                duration={500}>
                 {" "}
                 {link}
               </Link>

@@ -5,9 +5,6 @@ import python from "../assets/python.png";
 import react from "../assets/react.png";
 import javascript from "../assets/javascript.png";
 import tailwindcss from "../assets/tailwind.png";
-// import django from "../assets/Django.png";
-// import flask from "../assets/Flask.png";
-// import bootstrap from "../assets/bootstrap.png";
 
 const Experience = () => {
   const techstack = [
@@ -48,30 +45,11 @@ const Experience = () => {
       title: "Tailwindcss",
       style: "shadow-blue-400",
     },
-    // {
-    //   id: 7,
-    //   src: bootstrap,
-    //   title: "Boostrapcss",
-    //   style: "shadow-blue-500",
-    // },
-    // {
-    //   id: 8,
-    //   src: flask,
-    //   title: "Flask",
-    //   style: "shadow-yellow-500",
-    // },
-    // {
-    //   id: 9,
-    //   src: django,
-    //   title: "Django",
-    //   style: "shadow-green-500",
-    // },
   ];
   return (
     <div
-      name="experience"
-      className="bg-gradient-to-b flex from-gray-800 to-black w-full h-screen"
-    >
+      name="Experience"
+      className="bg-gradient-to-b flex from-gray-800 to-black w-full h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-white">
         <div className="flex flex-col items-center">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
@@ -83,8 +61,7 @@ const Experience = () => {
           {techstack.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-            >
+              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>

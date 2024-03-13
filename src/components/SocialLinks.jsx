@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/marvin-wandati-kinyanjui/",
+      href: "https://www.linkedin.com/in/marvin-wandati/",
       style: "rounded-tr-md",
     },
     {
@@ -56,15 +56,13 @@ const SocialLinks = () => {
               "ml-[-100px] hover:rounded-md flex justify-between items-center h-14 w-40 px-4 bg-gray-600 duration-300 hover:ml-[-10px]" +
               " " +
               style
-            }
-          >
+            }>
             <a
               className="flex justify-between items-center w-full text-white"
               href={href}
               download={download}
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               {child}
             </a>
           </li>
