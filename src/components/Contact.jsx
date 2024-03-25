@@ -42,7 +42,7 @@ const Contact = () => {
               className="my-4 p-2 b bg-transparent border-2 rounded-md text-white focus:outline-none"
               cols="30"
               required></textarea>
-            <button className="text-white bg-gradient-to-b from-purple-500 to-violet-800 px-6 py-3 mx-auto mb-8 flex items-center rounded-md hover:scale-110 duration-300 ">
+            <button className="text-white bg-gradient-to-b from-purple-500 to-violet-800 px-6 py-3 mx-auto mb-10 flex items-center rounded-md hover:scale-110 duration-300 ">
               Submit
             </button>
           </form>

@@ -83,7 +83,7 @@ const Home = () => {
       name="Home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white overflow-y-auto">
       <div className="max-w-screen-lg mx-auto flex flex-col-reverse justify-end py-32 items-center md:justify-between h-full px-4 md:gap-16 md:flex-row">
-        <div className="flex flex-col justify-center gap-6 md:h-full">
+        <div className="flex flex-col justify-center gap-6 md:h-full mt-6">
           <h2 className="text-4xl sm:text-7xl text-center md:text-left font-bold text-white max-w-2xl mt-8">
             {typedText}
           </h2>
@@ -95,7 +95,7 @@ const Home = () => {
           </p>
           <div className="flex justify-center md:justify-start mb-4">
             <Link
-              to="portfolio"
+              to="Projects"
               smooth
               duration={500}
               className="group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-violet-800 cursor-pointer  hover:scale-110 duration-300">
