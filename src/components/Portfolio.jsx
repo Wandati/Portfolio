@@ -1,8 +1,9 @@
 import React from "react";
 // import PortfolioImage from "../assets/Portfolio.jpg";
 import Portfolio1 from "../assets/portfolio2.png";
-import Portfolio2 from "../assets/portfolio3.png";
-import Portfolio3 from "../assets/todo.png";
+import Portfolio2 from "../assets/Books.png";
+import Portfolio3 from "../assets/portfolio3.png";
+// import Portfolio3 from "../assets/todo.png";
 const Portfolio = () => {
   const projects = [
     {
@@ -21,8 +22,9 @@ const Portfolio = () => {
   const handleCode = (id) => {
     const codeUrls = {
       1: "https://github.com/Wandati/Flask-Destinations-App",
-      2: "https://github.com/Wandati/Flask-Bus-Booking-App",
-      3: "https://github.com/Wandati/Django-React-Todo-App",
+      2: "https://github.com/Wandati/BookList",
+      3: "https://github.com/Wandati/Flask-Bus-Booking-App",
+      // 3: "https://github.com/Wandati/Django-React-Todo-App",
     };
 
     const codeUrl = codeUrls[id];
@@ -36,8 +38,9 @@ const Portfolio = () => {
   const handleDemo = (id) => {
     const demoUrls = {
       1: "https://destinations-app-kappa.vercel.app/",
-      2: "https://bus-booking-app-delta.vercel.app/",
-      3: "https://django-react-todo-app-orcin.vercel.app/",
+      2: "https://book-list-two-sigma.vercel.app/",
+      3: "https://bus-booking-app-delta.vercel.app/",
+      // 3: "https://django-react-todo-app-orcin.vercel.app/",
     };
     const demoUrl = demoUrls[id];
     if (demoUrl) {

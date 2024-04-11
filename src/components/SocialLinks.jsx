@@ -41,7 +41,7 @@ const SocialLinks = () => {
         </>
       ),
       // href: `/${cv}`,
-      href: "/cv.pdf",
+      href: "/Updatedcv.pdf",
       style: "rounded-tr-md",
       download: true,
     },
